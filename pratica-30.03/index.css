@@ -1,0 +1,146 @@
+.quattrocento-regular {
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quattrocento-bold {
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Quattrocento', serif;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em; 
+    justify-content: space-between;
+    align-items: center;  
+    
+}
+
+#logo-title{
+    font-size: 1.5em;
+}
+
+.logo{
+    width: 10%;
+}
+
+.logo-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.menu-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+#home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.title-session{
+    font-size: 3em;
+    text-align: center;
+}
+
+.init{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.img-liev{
+    width: 30em;
+    
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 1em; 
+}
+
+.resume{
+    width: 60%;
+    font-size: 1.2em;
+}
+
+.date{
+    font-size: 0.9em;
+}
+
+.escritor{
+    font-size: 4em;
+}
+
+.btn-mais{
+    width: 10%;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.btn-mais:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform:scaleX(1)
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+table, th, td{
+    border: 1px solid #999999;
+}
+
+th{
+    padding: 1em;
+}
+
+#books{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+footer{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    text-align: end;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "minha-api",
+    "version": "0.0.1",
+    "description": "Minha API de exemplo",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "all": "^0.0.0",
+        "express": "^5.2.1"
+    }
+}
